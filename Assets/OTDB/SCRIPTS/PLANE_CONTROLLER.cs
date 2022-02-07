@@ -8,20 +8,14 @@ public class PLANE_CONTROLLER : MonoBehaviour
     private float speed = 50;
 
     //LIMITES
-    /*private float rightlim = 300;
-    private float leftlim = -360;
-    private float backlim = 0;
-    private float forwardlim = 0;
-
-    /*
-    private float rightlim = -360;
-    private float leftlim = 300;
-    private float backlim = -370;
-    private float forwardlim = 330;
-    */
+    private float rightlim = -350;
+    private float leftlim = 350;
+    private float backlim = 350;
+    private float forwardlim = -350;
+    private float uplim = 300;
 
     //VELOCIDAD DE ROTACION
-    private float turnspeed = 100;
+    private float turnspeed = 60;
     private float horizontalInput;
     private float verticalInput;
 
@@ -53,27 +47,22 @@ public class PLANE_CONTROLLER : MonoBehaviour
             transform.Rotate(Vector3.back, turnspeed * Time.deltaTime);
         }
 
-        //LIMITES DE PANTALLA HORIZONTAL
-         if (transform.position.z >= rightlim)
-         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, rightlim);
-        }
-
-         if (transform.position.z <= leftlim)
-         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, leftlim);
-        }
-
-        //LIMITES DE PANTALLA VERTICAL
-        if (transform.position.x >= forwardlim)
-        {
-            transform.position = new Vector3(forwardlim, transform.position.y, transform.position.z);
-        }
-
-        if (transform.position.x <= backlim)
-        {
-            transform.position = new Vector3(backlim, transform.position.y, transform.position.z);
-        }
+        if(transform.position.z >= backlim)
+        { transform.position = new Vector3(transform.position.x, transform.position.y, backlim); }
+        
+        if(transform.position.z <= forwardlim)
+        { transform.position = new Vector3(transform.position.x, transform.position.y, forwardlim); }
+        
+        if(transform.position.x >= leftlim)
+        { transform.position = new Vector3(leftlim, transform.position.y, transform.position.z); }
+        
+        if(transform.position.x <= rightlim)
+        { transform.position = new Vector3(rightlim, transform.position.y, transform.position.z); }
+        
+        if(transform.position.y >= uplim)
+        { transform.position = new Vector3(transform.position.x, uplim, transform.position.z); }
+        
+        
 
     }
 }

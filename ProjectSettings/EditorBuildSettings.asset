@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/POR_DEFECTO/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/OTDB/MENU.unity
+    guid: 242c4e3d46a7b7946a270e337f689e78
+  - enabled: 1
+    path: Assets/OTDB/VIDEOJUEGO.unity
+    guid: 135113d5c587089449d5a746f864d71b
+  - enabled: 1
+    path: Assets/OTDB/DERROTA.unity
+    guid: e21abb1ba285786408b039959f930fbf
   m_configObjects: {}

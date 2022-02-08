@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 19
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 54
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 55
+  controlID: 23
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,22 +434,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/OTDB/MATERIALS/NATURALEZA
+    - Assets/OTDB/MATERIALS
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/OTDB/MATERIALS/NATURALEZA
+  - Assets/OTDB/MATERIALS
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Marc Carrot\OTDB_4
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 18}
-    m_SelectedIDs: f65a0000
-    m_LastClickedID: 23286
-    m_ExpandedIDs: 00000000905a0000925a0000945a0000965a0000d05a0000d45a000000ca9a3b
+    m_SelectedIDs: d05a0000
+    m_LastClickedID: 23248
+    m_ExpandedIDs: 00000000905a0000925a0000945a0000965a0000d05a0000d25a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,9 +598,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e04e0000
-      m_LastClickedID: 20192
-      m_ExpandedIDs: 36bcffff52fbffffdc4e00005e4f0000
+      m_SelectedIDs: b64c0000
+      m_LastClickedID: 19638
+      m_ExpandedIDs: eab6feff52fbffff70490000264a0000cc4a0000a44c0000ee4c0000b44d0000564e0000924e0000aa4e0000dc4e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -660,9 +660,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -171.7319, y: -157.2768, z: -120.93921}
+    m_Target: {x: -135.1, y: 98.82395, z: -75}
     speed: 2
-    m_Value: {x: -171.7319, y: -157.2768, z: -120.93921}
+    m_Value: {x: -135.1, y: 98.82395, z: -75}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -709,13 +709,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16915971, y: 0.8076529, z: -0.2780683, w: -0.49179682}
+    m_Target: {x: -0.24710134, y: 0.57346433, z: -0.18692677, w: -0.75847673}
     speed: 2
-    m_Value: {x: -0.16841316, y: 0.808027, z: -0.27684203, w: -0.49202433}
+    m_Value: {x: -0.24708293, y: 0.5734216, z: -0.18691283, w: -0.7584202}
   m_Size:
-    m_Target: 370.93195
+    m_Target: 49.469704
     speed: 2
-    m_Value: 370.93195
+    m_Value: 48.748013
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -806,23 +806,23 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1309
-      height: 595
-    m_Scale: {x: 0.5509259, y: 0.5509259}
-    m_Translation: {x: 654.5, y: 297.5}
+      height: 574
+    m_Scale: {x: 0.5314815, y: 0.5314815}
+    m_Translation: {x: 654.5, y: 287}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1188
+      x: -1231.4634
       y: -540
-      width: 2376
+      width: 2462.9268
       height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 0.5509259
+  m_defaultScale: 0.5314815
   m_LastWindowPixelSize: {x: 1309, y: 595}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
